@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: arial;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ddd;
+  padding: 1rem;
+}
+
+.card {
+  background: #222;
+  color: #fff;
+  height: 90vh;
+  width: 50%;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+h1.card_title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+input#todoInput {
+  border: none;
+  outline: none;
+  width: 85%;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+}
+
+.btn {
+  background: orange;
+  padding: 0.6rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  user-select: none;
+}
+.btn:hover {
+  background: #fff;
+  color: black;
+}
+.listStyle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background: #555;
+  padding: 0.5rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  user-select: none;
+  transition: all 0.4s ease;
+  position: relative;
+}
+.listStyle:hover {
+  background-color: #000;
+}
+form#form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bg-success {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  color: black;
+  background-color: #ddffdd;
+  border-left: 6px solid #04aa6d;
+}
+
+.bg-danger {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  color: black;
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+}
